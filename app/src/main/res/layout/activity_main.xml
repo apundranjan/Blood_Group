@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/arrow_up_float"
+    android:gravity="left|right|fill_vertical|center_horizontal|fill_horizontal|center|fill|clip_vertical|clip_horizontal|start|end"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/donate_b"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DONATE"/>
+        <Button
+            android:id="@+id/collect_b"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="COLLECT"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/signin_b"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="SIGN IN"/>
+
+        <Button
+            android:id="@+id/signup_b"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SIGN UP"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_weight="1"
+        android:dividerPadding="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="text|textCapCharacters|textCapWords|textAutoComplete|textPersonName|textPostalAddress"
+            android:text="SEARCH"/>
+        <Button
+            android:id="@+id/search_b"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SEARCH"/>
+
+    </LinearLayout>
+</LinearLayout>
