@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Blood_Group</string>
+
+    <string-array name="feedbacktypelist">
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+        <item>@string/feedbacktype4</item>
+    </string-array>
+
 </resources>

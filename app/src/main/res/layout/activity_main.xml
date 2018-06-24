@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:drawable/arrow_up_float"
-    android:gravity="left|right|fill_vertical|center_horizontal|fill_horizontal|center|fill|clip_vertical|clip_horizontal|start|end"
+   
     android:orientation="vertical"
     android:padding="10dp"
     android:paddingBottom="10dp"
@@ -27,7 +27,7 @@
             android:layout_width="61dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="DONATE"/>
+            android:text="DONATE" />
         <Button
             android:id="@+id/collect_b"
             style="@android:style/Widget.Holo.Button"

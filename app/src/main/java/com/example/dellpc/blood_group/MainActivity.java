@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
     final Button donate_b = (Button)findViewById(R.id.donate_b);
     final Button collect_b = (Button)findViewById(R.id.collect_b);
+    final Button signup_b = (Button)findViewById(R.id.signup_b);
+    final Button signin_b = (Button)findViewById(R.id.signin_b);
+    final Button search_b = (Button)findViewById(R.id.search_b);
 
     public void OnClickButtonListener() {
         donate_b.setOnClickListener(
@@ -37,5 +40,32 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+
+        signup_b.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View v) {
+                                            Intent intent3 = new Intent("com.example.dellpc.blood_group.MainActivity.Sign_Up");
+                                            startActivity(intent3);
+                                        }
+                                    }
+        );
+
+        signin_b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent4 = new Intent("com.example.dellpc.blood_group.MainActivity.Sign_In");
+                startActivity(intent4);
+            }
+        });
+
+        search_b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent5 = new Intent("com.example.dellpc.blood_group.MainActivity.Search");
+                startActivity(intent5);
+            }
+        });
+
     }
+
 }

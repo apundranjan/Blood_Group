@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Other string resources also defined in this file… -->
+    <string name="feedbacktype1">A+</string>
+    <string name="feedbacktype2">A-</string>
+    <string name="feedbacktype3">B+</string>
+    <string name="feedbacktype4">B-</string>
+    <string name="feedbacktype5">O+</string>
+    <string name="feedbacktype6">O-</string>
+    <string name="feedbacktype7">AB+</string>
+    <string name="feedbacktype8">AB-</string>
+</resources>

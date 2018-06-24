@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Donate_Form" >
+        <activity android:name=".Donate_Form">
             <intent-filter>
                 <action android:name=".Donate_Form" />
 
@@ -30,6 +30,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Sign_Up" />
+        <activity android:name=".Sign_In" />
+        <activity android:name=".Search"></activity>
     </application>
 
 </manifest>
