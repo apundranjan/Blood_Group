@@ -12,6 +12,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Button donate_b = (Button)findViewById(R.id.donate_b);
+        final Button collect_b = (Button)findViewById(R.id.collect_b);
+        final Button signup_b = (Button)findViewById(R.id.signup_b);
+        final Button signin_b = (Button)findViewById(R.id.signin_b);
+        final Button search_b = (Button)findViewById(R.id.search_b);
+
     }
 
     final Button donate_b = (Button)findViewById(R.id.donate_b);
