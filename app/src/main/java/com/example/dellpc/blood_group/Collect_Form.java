@@ -43,5 +43,4 @@ public class Collect_Form extends AppCompatActivity {
     boolean bRequiresResponse = responseCheckbox.isChecked();
 
 
-
 }
